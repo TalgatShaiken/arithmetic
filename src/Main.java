@@ -12,7 +12,9 @@ public class Main {
             int number1 = new Scanner(System.in).nextInt();
             System.out.println("Введите второе число");
             int number2 = new Scanner(System.in).nextInt();
-            int result = number1 + number2;
+            System.out.println("Введите третье число");
+            int number3 = new Scanner(System.in).nextInt();
+            int result = number1 + number2 + number3;
             System.out.println(result);
         }
 
