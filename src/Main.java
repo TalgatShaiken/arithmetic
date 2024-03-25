@@ -17,6 +17,5 @@ public class Main {
             int result = number1 + number2 + number3;
             System.out.println(result);
         }
-
     }
 }
