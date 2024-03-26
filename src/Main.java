@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
+
     public class arithmetic {
         private int num1;
         private int num2;
@@ -27,6 +28,7 @@ public class Main {
             return Math.min(num1, num2);
         }
     }
+
     public static void main(String[] args) {
         System.out.println();
 
