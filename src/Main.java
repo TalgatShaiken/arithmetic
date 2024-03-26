@@ -1,14 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println();
-
-    }
 
     public class arithmetic {
-        private int num1 = new Scanner(System.in).nextInt();;
-        private int num2 = new Scanner(System.in).nextInt();;
+        private int num1;
+        private int num2;
 
         public arithmetic(int num1, int num2) {
             this.num1 = new Scanner(System.in).nextInt();
@@ -30,5 +26,9 @@ public class Main {
         public int min() {
             return Math.min(num1, num2);
         }
+    }
+    public static void main(String[] args) {
+        System.out.println();
+
     }
 }
